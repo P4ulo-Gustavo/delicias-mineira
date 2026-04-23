@@ -1,19 +1,19 @@
 <?php
 
-namespace App\Model;
+namespace App\Common;
 
-class Envronment{
+class Environment{
     
     /**Esta função serve para carregar as variáveis de ambiente do arquivo .env para o sistema
     * @param string $directory
     * @return void
     */
-    public static function loadEnv(string $direcryenv): bool{
-        if (!file_exists($direcryenv . '/.env')){
+    public static function loadEnv(string $direnv): bool{
+        if (!file_exists($direnv . '/.env')){
             return false;
         }
 
-        $lines = file($direcryenv . '/.env');
+        $lines = file($direnv . '/.env');
 
         foreach ($lines as $line){
 
