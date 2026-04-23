@@ -1,0 +1,13 @@
+{
+    "name": "deliciasmineira/app",
+    "description": "Delicias Mineira restaurante",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "require": {
+        "php": ">=8.2"
+    }
+}
