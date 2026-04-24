@@ -7,9 +7,10 @@
     /Controller/
         /Pages/                                     // Arquivos de visualização de páginas
     /Http/
-        /Request.php                                // Arquivo para capturar e validar requisições
-        /Response.php                               // Arquivo para retornar respostas
-        /AuthControllerRouter.php                   // Arquivo para rotear requisições de autenticação
+        /Router.php                                 // Classe para gerenciar rotas
+        /Request.php                                // Classe para capturar e validar requisições
+        /Response.php                               // Classe para retornar respostas
+        /AuthControllerRouter.php                   // Classe para rotear requisições de autenticação
     /Model/
         /Entity/
             /User.php                               // Classe para gerenciar usuarios

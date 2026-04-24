@@ -20,7 +20,7 @@ if (!empty($env)) {
         $env['DB_DATABASE']
     );
 
-    try{
+    try {
         $pdo_connection = $database->getConnection();
 
         if ($pdo_connection instanceof PDO) {
